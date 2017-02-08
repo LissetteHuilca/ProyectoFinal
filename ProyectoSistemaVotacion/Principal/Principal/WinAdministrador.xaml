@@ -1,0 +1,15 @@
+﻿<Window x:Class="WinAdministrador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Principal"
+        mc:Ignorable="d"
+        Title="WinAdministrador" Height="300" Width="300" Closing="Window_Closing" Icon="Resources/principal.png">
+    <Grid Background="#FFA9BAB9">
+        <Button x:Name="btnRegistrar" Content="Registrar Candidatos" Margin="81,152,72.6,0" VerticalAlignment="Top" RenderTransformOrigin="-0.282,0.363" Height="35"/>
+        <Button x:Name="btnGenerar" Content="Generar Reporte" Margin="81,203,72.6,0" VerticalAlignment="Top" Height="35"/>
+        <Image x:Name="image" Margin="59,35,58.6,0" Source="Resources/registrar.jpg" Height="82" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

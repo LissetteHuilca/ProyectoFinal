@@ -1,0 +1,43 @@
+﻿<Window x:Class="VotarDignidades"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Principal"
+        mc:Ignorable="d"
+        Title="VotarDignidades" Height="570.588" Width="867.059" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="306*"/>
+            <RowDefinition Height="235*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="144*"/>
+            <ColumnDefinition Width="143*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="GridLista35" ItemsSource="{Binding Path=Lista35}" Margin="43,105,43,18.6">
+
+
+            <DataGrid.Background>
+                <ImageBrush ImageSource="Resources/alianzaPais.jpg" Opacity="0.2"/>
+            </DataGrid.Background>
+        </DataGrid>
+        <DataGrid x:Name="GridLista23" ItemsSource="{Binding Path=Lista23}" Margin="47,105,35.8,18.6" Grid.Column="1">
+            <DataGrid.Background>
+                <ImageBrush ImageSource="Resources/creoSuma.jpg" Opacity="0.3"/>
+            </DataGrid.Background>
+        </DataGrid>
+        <DataGrid x:Name="GridLista6" ItemsSource="{Binding Path=Lista6}" Margin="47,20.4,35.8,35.8" Grid.Column="1" Grid.Row="1">
+            <DataGrid.Background>
+                <ImageBrush ImageSource="Resources/socialCristiano.png" Opacity="0.3"/>
+            </DataGrid.Background>
+        </DataGrid>
+        <DataGrid x:Name="GridLista10" ItemsSource="{Binding Path=Lista10}" Margin="43,20.4,43,35.8" Grid.Row="1">
+            <DataGrid.Background>
+                <ImageBrush ImageSource="Resources/FUERZA.jpg" Opacity="0.2"/>
+            </DataGrid.Background>
+        </DataGrid>
+        <Label x:Name="label" Content="Seleccione dos asambleístas y dos concejales" HorizontalAlignment="Left" Margin="53,22,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="770" FontWeight="Bold" FontSize="36"/>
+
+    </Grid>
+</Window>
