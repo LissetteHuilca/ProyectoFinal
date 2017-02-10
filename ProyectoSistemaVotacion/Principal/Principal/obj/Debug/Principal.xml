@@ -6,131 +6,6 @@ Principal
 </name>
 </assembly>
 <members>
-<member name="T:Principal.Login">
-<summary>
-Login
-</summary>
-</member>
-<member name="M:Principal.Login.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:Principal.LoginCandidato">
-<summary>
-LoginCandidato
-</summary>
-</member>
-<member name="M:Principal.LoginCandidato.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:Principal.LogInVotante">
-<summary>
-LogInVotante
-</summary>
-</member>
-<member name="M:Principal.LogInVotante.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:Principal.RegistroDeCandidatos">
-<summary>
-RegistroDeCandidatos
-</summary>
-</member>
-<member name="M:Principal.RegistroDeCandidatos.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:Principal.ReporteVotaciones">
-<summary>
-ReporteVotaciones
-</summary>
-</member>
-<member name="M:Principal.ReporteVotaciones.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:Principal.ReporteVotacionesDignidades">
-<summary>
-ReporteVotacionesDignidades
-</summary>
-</member>
-<member name="M:Principal.ReporteVotacionesDignidades.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:Principal.VotarDignidades">
-<summary>
-VotarDignidades
-</summary>
-</member>
-<member name="M:Principal.VotarDignidades.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:Principal.WinVotantes">
-<summary>
-WinVotantes
-</summary>
-</member>
-<member name="M:Principal.WinVotantes.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:Principal.Application">
-<summary>
-Application
-</summary>
-</member>
-<member name="M:Principal.Application.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="M:Principal.Application.Main">
-<summary>
-Application Entry Point.
-</summary>
-</member>
-<member name="T:Principal.WinAdministrador">
-<summary>
-WinAdministrador
-</summary>
-</member>
-<member name="M:Principal.WinAdministrador.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:Principal.WinCandidato">
-<summary>
-WinCandidato
-</summary>
-</member>
-<member name="M:Principal.WinCandidato.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
-<member name="T:Principal.WinPrincipal">
-<summary>
-WinPrincipal
-</summary>
-</member>
-<member name="M:Principal.WinPrincipal.InitializeComponent">
-<summary>
-InitializeComponent
-</summary>
-</member>
 <member name="T:Principal.My.MyWpfExtension">
  <summary>
  Module used to define the properties that are available in the My Namespace for WPF
@@ -262,6 +137,131 @@ InitializeComponent
 <member name="P:Principal.My.Resources.Resources.votoEnBlanco">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Principal.Login">
+<summary>
+Login
+</summary>
+</member>
+<member name="M:Principal.Login.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Principal.LoginCandidato">
+<summary>
+LoginCandidato
+</summary>
+</member>
+<member name="M:Principal.LoginCandidato.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Principal.LogInVotante">
+<summary>
+LogInVotante
+</summary>
+</member>
+<member name="M:Principal.LogInVotante.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Principal.RegistroDeCandidatos">
+<summary>
+RegistroDeCandidatos
+</summary>
+</member>
+<member name="M:Principal.RegistroDeCandidatos.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Principal.ReporteVotaciones">
+<summary>
+ReporteVotaciones
+</summary>
+</member>
+<member name="M:Principal.ReporteVotaciones.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Principal.ReporteVotacionesDignidades">
+<summary>
+ReporteVotacionesDignidades
+</summary>
+</member>
+<member name="M:Principal.ReporteVotacionesDignidades.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Principal.VotarDignidades">
+<summary>
+VotarDignidades
+</summary>
+</member>
+<member name="M:Principal.VotarDignidades.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Principal.WinVotantes">
+<summary>
+WinVotantes
+</summary>
+</member>
+<member name="M:Principal.WinVotantes.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Principal.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:Principal.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:Principal.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:Principal.WinAdministrador">
+<summary>
+WinAdministrador
+</summary>
+</member>
+<member name="M:Principal.WinAdministrador.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Principal.WinCandidato">
+<summary>
+WinCandidato
+</summary>
+</member>
+<member name="M:Principal.WinCandidato.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Principal.WinPrincipal">
+<summary>
+WinPrincipal
+</summary>
+</member>
+<member name="M:Principal.WinPrincipal.InitializeComponent">
+<summary>
+InitializeComponent
 </summary>
 </member>
 </members>

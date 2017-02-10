@@ -5,26 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Principal"
         mc:Ignorable="d"
-        Title="ReporteVotaciones" Height="772.133" Width="570.968" Closing="Window_Closing" Loaded="Window_Loaded" Background="#FFC3D0D1">
+        Title="ReporteVotaciones" Height="796.133" Width="570.968" Closing="Window_Closing" Loaded="Window_Loaded" Background="#FFC3D0D1">
     <Grid>
-        <Image x:Name="image1" Height="100" Margin="21,101,443.8,0" VerticalAlignment="Top" Source="Resources/lennin.png"/>
-        <Image x:Name="image2" Margin="27,255,437.8,0" Source="Resources/lasso.png" Height="100" VerticalAlignment="Top"/>
-        <Image x:Name="image3" Margin="21,419,443.8,0" Source="Resources/Dalo.png" Height="100" VerticalAlignment="Top"/>
-        <Image x:Name="image4" Margin="21,587,443.8,0" Source="Resources/cythia.png" Height="100" VerticalAlignment="Top"/>
-        <Label x:Name="label" Content="Resultados por Binomio" Margin="64,6,58.8,0" VerticalAlignment="Top" Height="64" FontSize="36" FontWeight="Bold"/>
-        <ProgressBar x:Name="ProgressLenin" HorizontalAlignment="Left" Height="45" Margin="193,133,0,0" VerticalAlignment="Top" Width="329" Background="#FFF9F7F7"/>
-        <ProgressBar x:Name="ProgressLasso" HorizontalAlignment="Left" Height="45" Margin="199,280,0,0" VerticalAlignment="Top" Width="329" Foreground="#FF8EFAF8" Background="#FFF9F7F7"/>
-        <ProgressBar x:Name="ProgressDalo" HorizontalAlignment="Left" Height="45" Margin="193,448,0,0" VerticalAlignment="Top" Width="329" Foreground="#FFFF3F28" Background="#FFF9F7F7"/>
-        <ProgressBar x:Name="ProgressCynthia" HorizontalAlignment="Left" Height="45" Margin="193,608,0,0" VerticalAlignment="Top" Width="329" Foreground="#FFFFF128" Background="#FFF9F7F7"/>
-        <Label x:Name="labelCynthia" Content="Cynthia Viteri" HorizontalAlignment="Left" Margin="18,550,0,0" VerticalAlignment="Top" FontSize="16" Width="123" FontWeight="Bold"/>
-        <Label x:Name="labelDalo" Content="Dalo Bucaram" HorizontalAlignment="Left" Margin="15,378,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="16"/>
-        <Label x:Name="labelLasso" Content="Guillermo Lasso" HorizontalAlignment="Left" Margin="15,219,0,0" VerticalAlignment="Top" Width="134" FontWeight="Bold" FontSize="16"/>
-        <Label x:Name="labelLenin" Content="Lenin Moreno" HorizontalAlignment="Left" Margin="15,66,0,0" VerticalAlignment="Top" Width="114" FontWeight="Bold" FontSize="16"/>
-        <Button x:Name="btnNext" Content="Siguiente" HorizontalAlignment="Left" Margin="419,695,0,0" VerticalAlignment="Top" Width="87" Height="30" ToolTip="Resultados por dignidad" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}"/>
-        <Label x:Name="labelPlennin" Content="" HorizontalAlignment="Left" Margin="332,133,0,0" VerticalAlignment="Top" Height="46" Width="47" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-        <Label x:Name="labelPlasso" Content="" HorizontalAlignment="Left" Margin="332,279,0,0" VerticalAlignment="Top" Height="46" Width="47" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-        <Label x:Name="labelPdalo" Content="" HorizontalAlignment="Left" Margin="332,448,0,0" VerticalAlignment="Top" Height="46" Width="47" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-        <Label x:Name="labelPcynthia" Content="" HorizontalAlignment="Left" Margin="332,607,0,0" VerticalAlignment="Top" Height="46" Width="47" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Image x:Name="image1" Height="74" Margin="35,85,455.8,0" VerticalAlignment="Top" Source="Resources/lennin.png"/>
+        <Image x:Name="image2" Margin="35,201,461.8,0" Source="Resources/lasso.png" Height="68" VerticalAlignment="Top"/>
+        <Image x:Name="image3" Margin="35,312,457.8,0" Source="Resources/Dalo.png" Height="72" VerticalAlignment="Top"/>
+        <Image x:Name="image4" Margin="35,439,457.8,0" Source="Resources/cythia.png" Height="72" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Resultados por Binomio" Margin="64,-3,58.8,0" VerticalAlignment="Top" Height="64" FontSize="36" FontWeight="Bold"/>
+        <ProgressBar x:Name="ProgressLenin" HorizontalAlignment="Left" Height="45" Margin="177,114,0,0" VerticalAlignment="Top" Width="329" Background="#FFF9F7F7"/>
+        <ProgressBar x:Name="ProgressLasso" HorizontalAlignment="Left" Height="45" Margin="177,224,0,0" VerticalAlignment="Top" Width="329" Foreground="#FF8EFAF8" Background="#FFF9F7F7"/>
+        <ProgressBar x:Name="ProgressDalo" HorizontalAlignment="Left" Height="45" Margin="177,339,0,0" VerticalAlignment="Top" Width="329" Foreground="#FFFF3F28" Background="#FFF9F7F7"/>
+        <ProgressBar x:Name="ProgressCynthia" HorizontalAlignment="Left" Height="45" Margin="177,466,0,0" VerticalAlignment="Top" Width="329" Foreground="#FFFFF128" Background="#FFF9F7F7"/>
+        <Label x:Name="labelCynthia" Content="Cynthia Viteri" HorizontalAlignment="Left" Margin="13,402,0,0" VerticalAlignment="Top" FontSize="16" Width="123" FontWeight="Bold"/>
+        <Label x:Name="labelDalo" Content="Dalo Bucaram" HorizontalAlignment="Left" Margin="15,279,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="16"/>
+        <Label x:Name="labelLasso" Content="Guillermo Lasso" HorizontalAlignment="Left" Margin="13,170,0,0" VerticalAlignment="Top" Width="134" FontWeight="Bold" FontSize="16"/>
+        <Label x:Name="labelLenin" Content="Lenin Moreno" HorizontalAlignment="Left" Margin="15,54,0,0" VerticalAlignment="Top" Width="114" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="btnNext" Content="Siguiente" Margin="468,726,0,0" ToolTip="Resultados por dignidad" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="87"/>
+        <Label x:Name="labelPlennin" Content="" HorizontalAlignment="Left" Margin="310,114,0,0" VerticalAlignment="Top" Height="46" Width="47" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="labelPlasso" Content="" HorizontalAlignment="Left" Margin="310,224,0,0" VerticalAlignment="Top" Height="46" Width="47" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="labelPdalo" Content="" HorizontalAlignment="Left" Margin="310,338,0,0" VerticalAlignment="Top" Height="46" Width="47" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label x:Name="labelPcynthia" Content="" HorizontalAlignment="Left" Margin="310,466,0,0" VerticalAlignment="Top" Height="46" Width="47" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <ProgressBar x:Name="ProgressNulo" HorizontalAlignment="Left" Height="45" Margin="177,573,0,0" VerticalAlignment="Top" Width="329" Foreground="#FF7A7969" Background="#FFF9F7F7"/>
+        <ProgressBar x:Name="ProgressBlanco" HorizontalAlignment="Left" Height="45" Margin="177,672,0,0" VerticalAlignment="Top" Width="329" Foreground="#FF7C3CF4" Background="#FFF9F7F7"/>
+        <Image x:Name="imageNulo" HorizontalAlignment="Left" Height="72" Margin="42,546,0,0" VerticalAlignment="Top" Width="67" Source="Resources/nulo.jpg"/>
+        <Image x:Name="imageBlanco" HorizontalAlignment="Left" Height="72" Margin="42,645,0,0" VerticalAlignment="Top" Width="67" Source="Resources/votoEnBlanco.jpg"/>
+        <Label x:Name="lblNulo" Content="" HorizontalAlignment="Left" Margin="310,573,0,0" VerticalAlignment="Top" Height="45" Width="47" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblBlanco" Content="" HorizontalAlignment="Left" Margin="310,672,0,0" VerticalAlignment="Top" Height="45" Width="47" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>

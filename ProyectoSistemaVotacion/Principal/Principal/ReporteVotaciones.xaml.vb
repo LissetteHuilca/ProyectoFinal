@@ -68,10 +68,22 @@ Public Class ReporteVotaciones
             ProgressCynthia.Value = suma
             labelPcynthia.Content = (suma & "%")
 
+            For Each emp As DataRow In dsMaster.Tables("ListasPoliticas").Rows
+                resultadoNulo += emp("Nulo")
+            Next
+            suma = (resultadoNulo / 100) * 100
+            ProgressNulo.Value = suma
+            lblNulo.Content = (suma & "%")
+
+            For Each emp As DataRow In dsMaster.Tables("ListasPoliticas").Rows
+                resultadoBlanco += emp("Blanco")
+            Next
+            suma = (resultadoBlanco / 100) * 100
+            ProgressBlanco.Value = suma
+            lblBlanco.Content = (suma & "%")
+
+
         End Using
-
-
-
 
     End Sub
 
@@ -82,4 +94,5 @@ Public Class ReporteVotaciones
         Me.Hide()
 
     End Sub
+
 End Class
