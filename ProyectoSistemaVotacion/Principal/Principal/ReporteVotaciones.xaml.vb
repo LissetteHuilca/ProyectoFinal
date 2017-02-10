@@ -83,6 +83,7 @@ Public Class ReporteVotaciones
             lblBlanco.Content = (suma & "%")
 
 
+
         End Using
 
     End Sub
